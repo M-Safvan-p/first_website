@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    height: 1000px;
+}
+header{
+    border-bottom: solid 1px #ccc;
+    position: fixed;
+    background-color: white;
+    height: 60px;
+    top: 0;
+    width: 100vw;
+}
+.headerImage{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 300px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    padding: 10px;
+}
+h3{
+    margin-top: 70px;
+}
+p{
+    text-align: center;
+}
+.inputSection{
+    display: flex;
+}
+.inputSection .email{
+    width: 50%;
+}
+.inputSection .name{
+    width: 50%;
+}
